@@ -9,9 +9,9 @@ class Client {
   static int nextid = 0;
   Client(
       {required this.name,
-      required this.address,
-      required this.phoneNumber,
-      required this.account}) {
+        required this.address,
+        required this.phoneNumber,
+        required this.account}) {
     nextid++;
     id = nextid;
   }

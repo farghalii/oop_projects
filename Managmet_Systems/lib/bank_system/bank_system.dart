@@ -1,9 +1,9 @@
 import 'dart:io';
-import 'package:bank_system/BankSystem/Account.dart';
+import 'Account.dart';
 
 void main() {
   List<BankAccount> accounts =
-      List.generate(10, (index) => BankAccount(balance: index * 20));
+  List.generate(10, (index) => BankAccount(balance: index * 20));
 
   int input;
 

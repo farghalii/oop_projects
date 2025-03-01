@@ -78,4 +78,3 @@ class SavingsBankAccount extends BankAccount {
   }
 }
 
-void main() {}
